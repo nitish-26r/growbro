@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/**/node_modules/
+venv/
+backend/venv/
+
+# Build caches & Next.js
+.next/
+frontend/**/.next/
+out/
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env*.local
+
+# Database & IDE
+*.sqlite3
+*.db
+.vscode/
+.idea/
